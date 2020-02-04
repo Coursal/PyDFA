@@ -33,8 +33,5 @@ so the output would be:
   * an automaton that accepts words with an even number of `0`s and `1`s (`dfa1.txt`)
   * an automaton that accepts words that end with `00` (`dfa2.txt`)
   * an automaton that accepts word that either begin or end with `01` (`dfa3.txt`)
-
-Written in [_Sublime Text_](https://www.sublimetext.com/) with the [_Anaconda_](http://damnwidget.github.io/anaconda/) package
-
-
-Tested with _**Python 3.5.2**_ on _**Lubuntu 16.04.6**_.
+* Written in [_Sublime Text_](https://www.sublimetext.com/) with the [_Anaconda_](http://damnwidget.github.io/anaconda/) package
+* Tested with _**Python 3.5.2**_ on _**Lubuntu 16.04.6**_.

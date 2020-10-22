@@ -35,8 +35,8 @@ def scan_input_file(input_file_name):
         current_transition = current_transition.split()
         print(current_transition)
 
-        """ create a tuple out of the first two characters to create a dictionary key for the transfer
-        function, and set the third character as the value for this specific key"""
+        # create a tuple out of the first two characters to create a dictionary key for the transfer
+        # function, and set the third character as the value for this specific key
         transfer_function[tuple([current_transition[0], current_transition[1]])] = current_transition[2]
 
     input_file.close()  # close the input file
